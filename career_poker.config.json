@@ -30,7 +30,12 @@
     ],
     "skip": 5,
     "omen": 6,
-    "hand_over": 7,
+    "hand_over": [
+      7,
+      {
+        "depend": true
+      }
+    ],
     "lucky": [
       7,
       {
@@ -61,9 +66,19 @@
       }
     ],
     "rebellion": 9,
-    "throw": 10,
+    "throw": [
+      10,
+      {
+        "depend": true
+      }
+    ],
     "power_back": 11,
-    "bomb": 12,
+    "bomb": [
+      12,
+      {
+        "depend": true
+      }
+    ],
     "bind": {
       "same": [
         true,
@@ -77,7 +92,10 @@
     "down_number": true,
     "emperor": true,
     "revolution": true,
-    "big_revolution": true,
+    "big_revolution": [
+      true,
+      2
+    ],
     "banned": [
       true,
       [
