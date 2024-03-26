@@ -1,0 +1,99 @@
+{
+  "before": {
+    "igniter": [
+      3,
+      {
+        "picture": "dia"
+      }
+    ]
+  },
+  "playing": {
+    "strongest": 2,
+    "poorest": 3,
+    "sandstorm": [
+      3,
+      {
+        "sheets": 3
+      }
+    ],
+    "kill_joker": [
+      3,
+      {
+        "picture": "spade"
+      }
+    ],
+    "cut_block": [
+      4,
+      {
+        "sheets": 2
+      }
+    ],
+    "skip": 5,
+    "omen": 6,
+    "hand_over": 7,
+    "lucky": [
+      7,
+      {
+        "sheets": 3
+      }
+    ],
+    "cut": [
+      [
+        6,
+        {
+          "sheets": 2
+        }
+      ],
+      [
+        8
+      ],
+      [
+        9,
+        {
+          "sheets": 2
+        }
+      ]
+    ],
+    "reverse": [
+      9,
+      {
+        "depend": true
+      }
+    ],
+    "rebellion": 9,
+    "throw": 10,
+    "power_back": 11,
+    "bomb": 12,
+    "bind": {
+      "same": [
+        true,
+        3
+      ],
+      "step": [
+        true,
+        3
+      ]
+    },
+    "down_number": true,
+    "emperor": true,
+    "revolution": true,
+    "big_revolution": true,
+    "banned": [
+      true,
+      [
+        2,
+        3,
+        8,
+        10,
+        11,
+        12
+      ]
+    ]
+  },
+  "after": {
+    "millionaire_fall": true,
+    "change_cards": true,
+    "ascension": true,
+    "disaster": true
+  }
+}
